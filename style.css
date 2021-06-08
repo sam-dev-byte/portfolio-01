@@ -1,0 +1,110 @@
+html{
+    background-image: url(images/279091.jpg);
+    
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    float: right;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: underline;
+
+    
+}
+span{
+    color: gold ;
+}
+nav ul li{
+    list-style: none;
+    display: block;
+    padding: 12px;
+    font-size: 25px;
+    color: white;
+
+}
+nav :hover{
+    color: gold;
+    transition: .4s;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50px);
+    
+
+}
+h1{
+    color: rgb(250, 250, 2);
+    margin: 20px ;
+    font-size: 60px;
+
+
+}
+h3{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+h4{
+    color: white;
+    font-size: 20px;
+}
+p{
+    color: white;
+    font-size: 35px;
+
+}
+a:link {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+    float: left;
+  }
+  
+  a:visited {
+    color:whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:rgb(230, 196, 8);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  ol{
+      display: block;
+      list-style: decimal;
+      margin-top: 1em;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 40px;
+      
+
+  }
